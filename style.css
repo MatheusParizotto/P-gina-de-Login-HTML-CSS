@@ -3,3 +3,24 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: "Montserrat";
+    color: #404040;
+    display: flex;
+    background-color: brown;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    background-color: white;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
