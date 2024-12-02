@@ -12,6 +12,10 @@ body {
     height: 100vh;
     justify-content: center;
     align-items: center;
+    background-image: url(assets/imagem-fundo.png);
+    background-size: cover;
+    background-position: 50%;
+    padding: 15px;
 }
 
 form {
@@ -49,6 +53,10 @@ input {
     background-color: #f1f1f1;
 }
 
+a {
+    color: #009dff;
+}
+
 .barra-horizontal {
     background-color: #f87842;
     height: 5px;
@@ -69,4 +77,8 @@ input {
     display: flex;
     flex-direction: column;
     gap: 5px;
+}
+
+.esqueceu {
+    text-align: center;
 }
